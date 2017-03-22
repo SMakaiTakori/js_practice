@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loops</title>
+</head>
+    <body>
+
+        <div id = tweetDiv></div>
+
+        <script type="text/javascript">
+
+            var tweetString = "";
+
+            var tweets = ["Good morning all!", "Eggs and turkey bacon for breakfast, yummy!", "Have a great day!", "You're awesome!"];
+
+            for (var i = 0; i < tweets.length; i++) {
+
+                tweetString = tweetString + "<p>" + tweets [i] + "</p>"
+
+            }
+
+            document.getElementById("tweetDiv").innerHTML = tweetString;
+
+         </script>
+
+    </body>
+
+</html>
