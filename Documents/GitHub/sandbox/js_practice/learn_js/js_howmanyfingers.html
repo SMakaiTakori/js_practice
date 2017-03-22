@@ -14,23 +14,41 @@
 
     <script type="text/javascript">
 
-        document.getElementById("checkGuess").onclick = function () {
+        document.getElementById("checkGuess").onclick =  function () {
 
-           var randomNumber = Math.random();
+            var randomNumber = (Math.floor(Math.random()*10));
 
-           randomNumber = randomNumber * 6;
+                if(document.getElementById("guess").value == randomNumber){
 
-           randomNumber = Math.floor(randomNumber);
+                    alert("You guessed right!");
 
-           if(document.getElementById("guess").value == randomNumber){
+                } else {
 
-               alert("You did it!");
+                    alert ("Try again. The number was " + randomNumber);
+                }
 
-           } else {
+                };
 
-               alert("Better luck next time. The number was " + randomNumber);
-           }
-        }
+
+//        ***Lesson challenge solution below:
+
+//        document.getElementById("checkGuess").onclick = function () {
+//
+//           var randomNumber = Math.random();
+//
+//           randomNumber = randomNumber * 6;
+//
+//           randomNumber = Math.floor(randomNumber);
+//
+//           if(document.getElementById("guess").value == randomNumber){
+//
+//               alert("You did it!");
+//
+//           } else {
+//
+//               alert("Better luck next time. The number was " + randomNumber);
+//           }
+//        }
 
     </script>
 
