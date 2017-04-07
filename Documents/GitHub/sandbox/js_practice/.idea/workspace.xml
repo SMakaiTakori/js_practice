@@ -54,8 +54,8 @@
       <file leaf-file-name="tic_tac_toe.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn_js/tic_tac_toe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -255,7 +255,7 @@
       <workItem from="1490389866929" duration="3478000" />
       <workItem from="1490393852195" duration="290000" />
       <workItem from="1490487204165" duration="3391000" />
-      <workItem from="1491599105341" duration="3854000" />
+      <workItem from="1491599105341" duration="6062000" />
     </task>
     <task id="LOCAL-00001" summary="Redid howmanyfingers challenge for practice">
       <created>1490143103863</created>
@@ -285,11 +285,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491602429020</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added js switchTurn function">
+      <created>1491603008586</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1491603008586</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42873000" />
+    <option name="totallyTimeSpent" value="45081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
@@ -343,7 +350,8 @@
     <MESSAGE value="Practice with functions" />
     <MESSAGE value="Tic Tac Toe game setup" />
     <MESSAGE value="Added js startGame function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added js startGame function" />
+    <MESSAGE value="Added js switchTurn function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added js switchTurn function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -527,8 +535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learn_js/tic_tac_toe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
+        <state relative-caret-position="272">
+          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
