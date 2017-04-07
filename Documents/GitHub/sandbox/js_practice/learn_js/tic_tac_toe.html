@@ -26,13 +26,24 @@
                 margin-right: auto;
                 margin-left: auto;
                 text-align: center;
+                border-color: darkslategray;
             }
+
         </style>
 
         <script type="text/javascript">
 
         function startGame() {
+
+            for (var i = 1; i <= 9; i = i + 1){
+                clearBox(i);
+            }
+
             document.turn = "X";
+            if (Math.random() < 0.5){
+                document.turn = "O";
+            }
+            document.winner = null;
             setMessage(document.turn + " gets to start!");
         }
 
@@ -41,7 +52,9 @@
         }
 
         function nextMove(square) {
-            if (square.innerText == "") {
+            if (document.winner !=null) {
+                setMessage(document.winner + " already won the game.");
+            } else if (square.innerText == "") {
                 square.innerText = document.turn;
                 switchTurn();
             } else {
@@ -52,6 +65,7 @@
         function switchTurn() {
             if (checkForwinner(document.turn)){
                 setMessage("Congratulations, " + document.turn + "! You win!");
+                document.winner = document.turn;
             } else if (document.turn == "X"){
                 document.turn = "O";
                 setMessage("It's " + document.turn + "'s turn!");
@@ -89,6 +103,10 @@
             return document.getElementById("s" + number).innerText;
         }
 
+        function clearBox(number) {
+            document.getElementById("s" + number).innerText = "";
+        }
+
         </script>
     </head>
 
@@ -97,7 +115,7 @@
 
     <div style="text-align: center" id="message"></div>
 
-    <table border="1">
+    <table border="2">
         <tr>
             <td id = "s1" class="square" onclick="nextMove(this);"></td>
             <td id = "s2" class="square" onclick="nextMove(this);"></td>
@@ -116,6 +134,8 @@
             <td id = "s9" class="square" onclick="nextMove(this);"></td>
         </tr>
     </table>
+
+    <div style="text-align: center"><a href="javascript:startGame();">Start Over</a></div>
 
 </body>
 </html>
