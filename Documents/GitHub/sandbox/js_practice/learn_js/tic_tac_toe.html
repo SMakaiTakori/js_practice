@@ -3,27 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Makai's Tic-Tac-Toe Game</title>
-</head>
-<body>
 
+        <style type="text/css">
+
+            h1  {
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            .square {
+                height:100px;
+                width: 100px;
+                text-align: center;
+                font-size: 32pt;
+                font-weight: bold;
+                font-family: Verdana, Geneva, sans-serif;
+                color: darkblue;
+            }
+
+            table {
+                margin-top: 40px;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+            }
+        </style>
+
+        <script type="text/javascript">
+
+        function startGame() {
+            document.turn = "X";
+
+            setMessage(document.turn + " gets to start!");
+        }
+
+        function setMessage(msg) {
+            document.getElementById("message").innerText = msg;
+        }
+
+        </script>
+    </head>
+
+<body onload="startGame();">
     <h1>Tic-Tac-Toe</h1>
+
+    <div style="text-align: center" id="message"></div>
+
     <table border="1">
         <tr>
-            <td>O</td>
-            <td>X</td>
-            <td>X</td>
+            <td class="square">O</td>
+            <td class="square">X</td>
+            <td class="square">X</td>
         </tr>
 
         <tr>
-            <td>X</td>
-            <td>O</td>
-            <td>O</td>
+            <td class="square">X</td>
+            <td class="square">O</td>
+            <td class="square">O</td>
         </tr>
 
         <tr>
-            <td>X</td>
-            <td>O</td>
-            <td>X</td>
+            <td class="square">X</td>
+            <td class="square">O</td>
+            <td class="square">X</td>
         </tr>
     </table>
 
