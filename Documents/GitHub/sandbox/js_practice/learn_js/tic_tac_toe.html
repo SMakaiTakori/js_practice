@@ -41,6 +41,22 @@
             document.getElementById("message").innerText = msg;
         }
 
+        function nextMove(square) {
+            square.innerText = document.turn;
+            switchTurn();
+        }
+
+        function switchTurn() {
+            if (document.turn == "X"){
+                document.turn = "O";
+            } else {
+                document.turn = "X";
+            }
+
+            setMessage("It's " + document.turn + "'s turn!");
+        }
+
+
         </script>
     </head>
 
@@ -51,21 +67,21 @@
 
     <table border="1">
         <tr>
-            <td class="square">O</td>
-            <td class="square">X</td>
-            <td class="square">X</td>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
         </tr>
 
         <tr>
-            <td class="square">X</td>
-            <td class="square">O</td>
-            <td class="square">O</td>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
         </tr>
 
         <tr>
-            <td class="square">X</td>
-            <td class="square">O</td>
-            <td class="square">X</td>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
+            <td class="square" onclick="nextMove(this);"></td>
         </tr>
     </table>
 

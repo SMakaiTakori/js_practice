@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9759c61b-e864-4816-9ae8-cbd120499ec5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$APPLICATION_CONFIG_DIR$/options/runner.layout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learn_js/tic_tac_toe.html" afterPath="$PROJECT_DIR$/learn_js/tic_tac_toe.html" />
     </list>
@@ -55,8 +54,8 @@
       <file leaf-file-name="tic_tac_toe.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn_js/tic_tac_toe.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+            <state relative-caret-position="442">
+              <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -256,7 +255,7 @@
       <workItem from="1490389866929" duration="3478000" />
       <workItem from="1490393852195" duration="290000" />
       <workItem from="1490487204165" duration="3391000" />
-      <workItem from="1491599105341" duration="3246000" />
+      <workItem from="1491599105341" duration="3854000" />
     </task>
     <task id="LOCAL-00001" summary="Redid howmanyfingers challenge for practice">
       <created>1490143103863</created>
@@ -279,11 +278,18 @@
       <option name="project" value="LOCAL" />
       <updated>1491599951220</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added js startGame function">
+      <created>1491602429020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1491602429020</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42265000" />
+    <option name="totallyTimeSpent" value="42873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="697" height="735" extended-state="0" />
@@ -336,7 +342,8 @@
     <MESSAGE value="Redid howmanyfingers challenge for practice" />
     <MESSAGE value="Practice with functions" />
     <MESSAGE value="Tic Tac Toe game setup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tic Tac Toe game setup" />
+    <MESSAGE value="Added js startGame function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added js startGame function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -520,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learn_js/tic_tac_toe.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="56" column="13" lean-forward="true" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        <state relative-caret-position="442">
+          <caret line="59" column="17" lean-forward="true" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
